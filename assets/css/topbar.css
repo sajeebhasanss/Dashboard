@@ -1,0 +1,58 @@
+/*Top Bar Start*/
+#topBar{
+    border-bottom: 1px solid #e0dbdb;
+    border-top: 1px solid #e0dbdb;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+    height: 60px;
+    z-index: 999;
+}
+#topBar .top-bar-icon a{
+    color: #F44A26;
+}
+#topBar .top-bar-icon a img{
+    height: 80px;
+    width: 80px;
+    margin-top: -30px;
+    margin-left: -23px;
+}
+#topBar .top-bar-icon{
+    display: inline-block;
+}
+#topBar #topBarItem {
+    float: right;
+}
+#topBar #notification-icon {
+    border-left: 1px solid #e0dbdb;
+    color: #cdcdce;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+}
+#topBarItem img{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-top: -8px;
+}
+#topBar .admin-p {
+    border-left: 1px solid #e0dbdb;
+    cursor: pointer;
+}
+#topBar .admin-p p{
+    line-height: 27px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+#topBarItem #nMark {
+    color: #F44A26;
+    font-size: 50px;
+    position: absolute;
+    top: -30px;
+    right: 22px; 
+}
+/*Top Bar End*/

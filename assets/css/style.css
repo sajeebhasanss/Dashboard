@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-600{
+    font-weight: 600;
+}
+body{
+    background: #fcfaf6; 
+}
+.font-14{
+    font-size: 14px;
+}
+.font-600{
+    font-weight: 600;
+}
+.font-12 {
+    font-size: 12px;
+}
+/*Main Part*/
+#mainPartHeader{
+    margin-left: 65px;
+    margin-top: 60px;
+    padding-top: 30px;
+}
+#mainPartHeader .container .row-1 .col h1{
+    display: inline-block;
+    font-size: 25px;
+}
+#mainPartHeader .container .row-1 .col .other-item {
+    float: right;
+}
+#mainPartHeader .container .row-1 .col .other-item p {
+    display: inline-block;
+}
+#mainPartHeader .container .row-1 .col .other-item select {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 7px 7px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+#mainPartHeader .container .row-1 .col .other-item label {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 7px 7px;
+    cursor: pointer;
+}
+#mainPartHeader .container .row-2 .col{
+    background: #ffffff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 15px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#mainPartHeader .container .row-2 .col p {
+    color: #cdcdce;
+}
+#mainPartHeader .container .row-2 .col:hover {
+    color: #ffffff;
+    background-color: #F44A26;
+}
+#mainPartHeader .container .row-2 .col:hover p{
+    color: #ffffff;
+}
+#mainPartHeader .container .row-2 .col:hover svg{
+    color: #f1f1f1;
+    background-color: #ec6868;
+}
+#mainPartHeader .container .row-2 .active{
+    background: #F44A26;
+    color: #ffffff;
+}
+#mainPartHeader .container .row-2 .active p{
+    color: #ffffff;
+}
+#mainPartHeader .container .row-2 .col .icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+#mainPartHeader .container .row-2 .col  svg{
+  color: #929191;
+  background-color: #ececec; 
+  border-radius: 50%;  
+}
+#mainPartHeader .container .row-2 .active  svg{
+    color: #ffffff;
+    background-color: #ec6868; 
+    border-radius: 50%;  
+  }
+#mainPartHeader .container .row-2 .col .other {
+    margin-top: 5px;
+}
+/*All Chart Css*/
+#chart1, #chart2, #chart3 {
+    margin: 20px 0px;
+    margin-left: 65px;
+}
+#chart1 .container, #chart2 .container, #chart3 .container{
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px 20px;
+}
+#chart1 .container .row .col h5,#chart2 .container .row .col h5 {
+    display: inline-block;
+}
+#chart1 .container .row .col select,#chart2 .container .row .col select,#chart3 .container .row select{
+    float: right;
+    background: #ffffff;
+    border: 1px solid #cdcdce;
+    padding: 7px 7px;
+    cursor: pointer;
+} 
+#chart3 .container .row .col .active span{
+    color: #F44A26;
+}
+
+
+/*Responsive css*/
+@media (max-width: 620px){
+    #mainPartHeader .container{
+        padding: 0px 20px;
+    }
+}
+@media (min-width: 768px){
+    #mainPartHeader .container .row-2 .col .icon{
+        float: left;
+    }
+}
+@media (min-width:768px) and (max-width:790px){
+    #mainPartHeader .container{
+        padding: 0px 20px;
+    }
+}
+@media (max-width: 767px){
+    #chart3 .container .row .col  span{
+        font-size: 13px;
+    }
+    #chart3 .container .row .col  p{
+        font-size: 10px;
+    }
+    #chart3 .container .row .col .row {
+        margin: 15px 0px;
+    }
+}
+@media (min-width: 767px){
+    #chart3 .container .row .col {
+        display: flex;
+        justify-content: space-between;
+    }
+}

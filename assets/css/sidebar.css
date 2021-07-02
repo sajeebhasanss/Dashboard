@@ -1,0 +1,46 @@
+/*Side Bar Start*/
+#sideBar {
+    padding-top: 10px;
+    height: 100%;
+    width: 65px;
+    display: inline-block;
+    position: fixed;
+    left: 0;
+    background: #1C1B29;
+}
+#sideBar a {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    margin: 30px 0px;
+    color: #ffffff;
+}
+#sideBar a i {
+    display: block;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+#sideBar a span{
+    color: #F44A26;
+    font-weight: 600;
+    display: none;
+}
+ #sideBar a:hover {
+     color: #F44A26;
+ }
+ #sideBar a svg:hover {
+  
+     color: #F44A26;
+ }
+ #sideBar a:hover span{
+     display: block;
+ }
+ #sideBar .active {
+     color: #F44A26;
+     border-right: 2px solid #F44A26;
+ }
+ #sideBar a.active span {
+     display: block;
+ }
+/*Side Bar End*/

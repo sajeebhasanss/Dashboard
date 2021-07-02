@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" href="assets/image/logo.svg">
+    <link rel="stylesheet" href="assets/file/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <link rel="stylesheet" href="assets/css/topbar.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--Top Bar-->
+    <div id="topBar" class="px-3">
+        <div class="top-bar-icon py-3 pe-3">
+            <a href="#">
+                <img src="assets/image/logo.svg" alt="">
+                <!-- <i class="fas fa-grip-lines"></i> -->
+            </a>
+        </div>
+        <div id="topBarItem" class="d-flex">
+            <div id="notification-icon" class=" px-4  py-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                    </svg>
+                <span id="nMark">.</span>
+            </div>
+            <div class="admin-p d-flex px-2  py-3">
+                <img class="admin-pic img-fluid ms-3" src="assets/image/profile.jpeg" alt="">
+                <p class="admin-name ps-2">
+                    Ronnie_Abs
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+                    </svg>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--Side Bar-->
+    <div id="sideBar">
+        <a href="#"  class="active">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-chat-left-dots-fill" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg>
+            <span>Dashboard</span>
+        </a>
+
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z"/>
+            </svg>               
+            <span>Dashboard</span>
+        </a>
+
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+                <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
+                <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
+            </svg>
+            <span>Dashboard</span>
+        </a>
+
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+            </svg>             
+            <span>Dashboard</span>
+        </a>
+        
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <span>Dashboard</span>
+        </a>
+
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-bar-graph-fill" viewBox="0 0 16 16">
+                <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-2 11.5v-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-2.5.5a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1zm-3 0a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-1z"/>
+            </svg>
+            <span>Dashboard</span>
+        </a>
+
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb-fill" viewBox="0 0 16 16">
+                <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            <span>Dashboard</span>
+        </a>
+
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
+                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+            </svg>
+            <span>Dashboard</span>
+        </a>
+    </div>
+    <!--Main Part-->
+    <section id="mainPartHeader">
+        <div class="container">
+            <div class="row row-1">
+                <div class="col m-0 p-0">
+                    <h1 class="font-600">Dashboard</h1>
+                    <div class="other-item">
+                        <p class="font-600 font-14">Web Camera</p>
+                        <select class="font-600 font-14">
+                            <option>Select Product</option>
+                            <option>Product 1</option>
+                            <option>Product 1</option>
+                            <option>Product 1</option>
+                        </select>
+                        <label class="font-600 font-14" for="dateInput">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" style="margin-bottom: 4px;" fill="currentColor" class="bi bi-calendar-minus" viewBox="0 0 16 16">
+                                <path d="M5.5 9.5A.5.5 0 0 1 6 9h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/>
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                            </svg>
+                            Pick Date
+                        </label>
+                        <input id="dateInput" class="d-none" type="date">
+                    </div>
+                </div>
+            </div>
+            <div class="row row-2 d-flex">
+                <div class="col active">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="padding: 10px 10px;" width="50" height="50" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                        </svg>
+                    </div>
+                    <div class="other">
+                        <p class="m-0 font-12 font-600">Total Reiviews Analyzed</p>
+                        <span class="font-600">42,782</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="padding: 10px 10px;" width="50" height="50" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                        </svg>
+                    </div>
+                    <div class="other">
+                        <p class="m-0 font-12 font-600">Fake Reviews</p>
+                        <span class="font-600">15%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="padding: 10px 10px;" width="50" height="50" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                        </svg>
+                    </div>
+                    <div class="other">
+                        <p class="m-0 font-12 font-600">Net Promoter Score</p>
+                        <span class="font-600">4.9</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="padding: 10px 10px;" width="50" height="50" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                        </svg>
+                    </div>
+                    <div class="other">
+                        <p class="m-0 font-12 font-600">Overall Impression</p>
+                        <span class="font-600">42,782</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Chart 1 Start-->
+    <section id="chart1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5 class="font-600">Rating Analysis</h1>
+                    <select>
+                        <option>Monthly</option>
+                        <option>Weekly</option>
+                        <option>Yearly</option>
+                    </select>
+                </div>
+            </div>
+            <canvas id="myChart1"></canvas>
+        </div>
+    </section>
+    <!--Chart 2 Start-->
+    <section id="chart2">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5 class="font-600">Rating Analysis</h1>
+                    <select>
+                        <option>Monthly</option>
+                        <option>Weekly</option>
+                        <option>Yearly</option>
+                    </select>
+                </div>
+            </div>
+            <canvas id="myChart2"></canvas>
+        </div>
+    </section>
+    <!--Chart 3 Start-->
+    <section id="chart3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5 class="font-600">Rating Analysis</h1>
+
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-4 active">
+                                <p class="font-12 m-0 font-600">Current Week</p>
+                                <span class="font-600">2403 Impression</span>
+                            </div>
+                            <div class="col-4 ">
+                                <p class="font-12 m-0 font-600">Current Month</p>
+                                <span class="font-600">2403 Impression</span>
+                            </div>
+                            <div class="col-4 ">
+                                <p class="font-12 m-0 font-600">Last Month</p>
+                                <span class="font-600">2403 Impression</span>
+                            </div>
+                        </div>
+                        
+                    <select>
+                        <option>Monthly</option>
+                        <option>Weekly</option>
+                        <option>Yearly</option>
+                    </select>
+                </div>
+            </div>
+            <canvas id="myChart3"></canvas>
+        </div>
+    </section>
+    <!--Js file link-->
+    <script src="assets/file/bootstrap.bundle.min.js"></script>
+    <script src="assets/file/chart.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
